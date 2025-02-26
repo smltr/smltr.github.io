@@ -39,6 +39,9 @@ def wrap_text_with_border(
     # Process the content
     wrapped_lines = []
 
+    # Check if we need to limit indentation to 4 spaces
+    limit_indentation = 'mobile' in output_file.lower()
+    
     # Process content line by line
     for line in content.split('\n'):
         # Empty lines
@@ -50,6 +53,13 @@ def wrap_text_with_border(
         match = re.match(r'^(\s*)', line)
         initial_indent = match.group(1) if match else ""
         indent_len = len(initial_indent)
+        
+        # Limit indentation to 4 spaces for mobile output files
+        if limit_indentation and indent_len > 4:
+            initial_indent = ' ' * 4
+            indent_len = 4
+            # Update the line with the new indentation
+            line = initial_indent + line.lstrip()
 
         # Subsequent lines should maintain the same indentation
         subsequent_indent = initial_indent

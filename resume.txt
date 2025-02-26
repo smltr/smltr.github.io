@@ -46,7 +46,7 @@
  │           • Created Counter-Strike server browser (findservers.net)        │
  │           • Refined personal LLM workflow for coding and creative work     │
  │                                                                            │
- │   → Founding Software Engineer, SheetRocks, Inc. ·······················   │
+ │   → Founding Software Engineer, SheetRocks ·····························   │
  │     Apr 2021 - Apr 2023 (2 years)                                          │
  │                                                                            │
  │           First engineer at seed-stage spreadsheet SaaS startup            │

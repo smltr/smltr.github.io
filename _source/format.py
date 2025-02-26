@@ -41,7 +41,7 @@ def wrap_text_with_border(
 
     # Check if we need to limit indentation to 4 spaces
     limit_indentation = 'mobile' in output_file.lower()
-    
+
     # Process content line by line
     for line in content.split('\n'):
         # Empty lines
@@ -53,7 +53,7 @@ def wrap_text_with_border(
         match = re.match(r'^(\s*)', line)
         initial_indent = match.group(1) if match else ""
         indent_len = len(initial_indent)
-        
+
         # Limit indentation to 4 spaces for mobile output files
         if limit_indentation and indent_len > 4:
             initial_indent = ' ' * 4
@@ -215,10 +215,10 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
     """
     # Extract filename for the header
     filename = filename.split('/')[-1]
-    
+
     # Determine if this is a mobile version
     is_mobile = 'mobile' in filename.lower()
-    
+
     # Create message about alternate version
     if is_mobile:
         alternate_version_msg = "(for desktop version of this file, see trouy.dev/resume.txt)"
@@ -235,7 +235,22 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
     header_fill = '─' * remaining_width
     header = f"┌{header_text}{header_fill} [utf-8] ───┐"
 
-    bottom_border = f"└{'─' * (adjusted_width - 2)}┘"
+    # Get current date for the timestamp
+    from datetime import datetime
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    timestamp = f"[Generated: {current_date}]"
+
+    # Calculate where to position the timestamp in the bottom border
+    timestamp_length = len(timestamp)
+    remaining_space = adjusted_width - 2 - timestamp_length
+
+    if remaining_space >= 0:
+        # Position the timestamp on the right side like utf-8 in the header
+        left_fill = adjusted_width - 2 - timestamp_length - 5
+        bottom_border = f"└{'─' * left_fill} {timestamp} ───┘"
+    else:
+        # If timestamp is too long, use a plain bottom border
+        bottom_border = f"└{'─' * (adjusted_width - 2)}┘"
 
     # Apply margin to start of each line
     margin_spaces = ' ' * margin

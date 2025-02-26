@@ -4,7 +4,7 @@
  │   Full Stack Software Engineer                                             │
  │                                                                            │
  │   901-609-0511 · smltr@proton.me                                           │
- │   linkedin.com/in/sam-trouy · substack.com/@smltr                          │
+ │   trouy.dev · linkedin.com/in/sam-trouy                                    │
  │                                                                            │
  │                                                                            │
  │   —— Reading this resume with context ——————————————————————————————————   │
@@ -17,12 +17,12 @@
  │                                                                            │
  │   —— Summary ———————————————————————————————————————————————————————————   │
  │                                                                            │
- │   Tech generalist with experience as a founding engineer, in sales, and    │
- │   doing hands on technical work. Continuous learner with a determined      │
- │   mindset. Husband and dad of 2 kids.                                      │
+ │   29-year-old tech generalist with experience as a founding engineer, in   │
+ │   sales, and doing hands on technical work. Continuous learner with a      │
+ │   determined mindset. Husband and dad of 2 kids.                           │
  │                                                                            │
  │   nerd; innovator; reader; writer; learner; gamer; thinker; doer; risk-    │
- │   taker; FIGURE-OUTER & DOT-CONNECTOR                                      │
+ │   taker; FIGURE-OUTER; DOT-CONNECTOR                                       │
  │                                                                            │
  │                                                                            │
  │   —— Skills/Languages/Frameworks ———————————————————————————————————————   │

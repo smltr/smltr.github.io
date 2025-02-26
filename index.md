@@ -7,7 +7,7 @@ Welcome to my personal landing page. I'm a full stack tech generalist and AI ent
 - [View my Resume](resume.txt) (or, curl trouy.dev/resume.txt)
   - for mobile: [mobile resume](mobile_resume.txt)
 - [LinkedIn](https://linkedin.com/in/sam-trouy)
-- [Substack](https://substack.com/@smltr) (will soon be moving the posts to this site)
+- [Blog](/blog/)
 
 ### About Me
 I'm a nerd.

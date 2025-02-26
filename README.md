@@ -1,1 +1,1 @@
-# smltr.github.io
+# personal site

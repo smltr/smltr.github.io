@@ -1,0 +1,75 @@
+SAM TROUY
+Full Stack Software Engineer
+
+901-609-0511 · smltr@proton.me
+linkedin.com/in/sam-trouy · substack.com/@smltr
+
+
+—— Reading this resume with context //—
+
+I like to cut through noise and get straight to the point. I've attempted to design this resume to be as concise and clear as possible, while also allowing me to take liberties in ways a traditional resume might not. I also really like plain text.
+
+
+—— Summary //—
+
+Tech generalist with experience as a founding engineer, in sales, and doing hands on technical work. Continuous learner with a determined mindset. Husband and dad of 2 kids.
+
+nerd; innovator; reader; writer; learner; gamer; thinker; doer; risk-taker; FIGURE-OUTER & DOT-CONNECTOR
+
+
+—— Skills/Languages/Frameworks //—
+
+• Professional experience with Go, TypeScript, React, AWS, MongoDB, Docker, GitHub
+• Personal projects with Go, HTMX, Alpine, Fly.io, Docker
+• Familiarity with Python, Rust, and Lisp, Node/Deno
+
+
+—— Experience //—
+
+→ Independent Developer //·
+  Apr 2023 - Present (2 years)
+
+        Self-funded exploration into agentic AI and personal projects
+
+        • Had my daughter, Summer
+        • Built custom blog (Elixir, Phoenix, LiveView)
+        • Tinkered with personal Lisp dialect
+        • Created Counter-Strike server browser (findservers.net)
+        • Refined personal LLM workflow for coding and creative work
+
+→ Founding Software Engineer, SheetRocks, Inc. //·
+  Apr 2021 - Apr 2023 (2 years)
+
+        First engineer at seed-stage spreadsheet SaaS startup
+
+        • Had my son, Sam III
+        • Owned key feature development (sorting algorithm, Python macros, formula ranges, cross-sheet references)
+        • Optimized React performance for smooth spreadsheet experience
+        • Fixed critical calculation and data integrity issues
+        • Maintained test suite and CI/CD pipeline
+        • On-call support for production incidents
+
+        Stack: Go, React, TypeScript, Python, Docker, AWS, GitHub
+
+→ Independent Developer //·
+  Oct 2020 - Apr 2021 (0.5 years)
+
+        Self-taught software engineering journey
+
+        • Built personal site (Go, vanilla JS)
+        • Created web scraper with custom instruction language
+        • Developed Discord bot for financial data processing
+
+→ Wire Technician & Sales Consultant, AT&T //·
+  Apr 2017 - Oct 2020 (3.5 years)
+
+        • Got married to my wife, Alaa
+        • Installed/repaired internet, TV, and phone services
+        • Transitioned to sales roles (outside and in-store)
+        • Developed customer communication and problem-solving skills
+
+→ Sales Associate, Best Buy
+  Mar 2012 - Apr 2017 (5 years)
+
+→ Sales Associate, Bed Bath & Beyond
+  Mar 2011 - Mar 2012 (1 year)

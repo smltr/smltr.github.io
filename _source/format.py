@@ -215,6 +215,15 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
     """
     # Extract filename for the header
     filename = filename.split('/')[-1]
+    
+    # Determine if this is a mobile version
+    is_mobile = 'mobile' in filename.lower()
+    
+    # Create message about alternate version
+    if is_mobile:
+        alternate_version_msg = "(for desktop version of this file, see trouy.dev/resume.txt)"
+    else:
+        alternate_version_msg = "(for mobile version of this file, see trouy.dev/mobile_resume.txt)"
 
     # Calculate adjusted width (total width minus margin)
     adjusted_width = width - (margin * 2)
@@ -231,7 +240,9 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
     # Apply margin to start of each line
     margin_spaces = ' ' * margin
 
-    result = [margin_spaces + header]
+    # Start with alternate version message before the border
+    result = [alternate_version_msg, '']  # Message followed by a newline
+    result.append(margin_spaces + header)
 
     # Add empty line at the beginning
     result.append(margin_spaces + f"│{' ' * (adjusted_width - 2)}│")

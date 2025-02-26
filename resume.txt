@@ -1,3 +1,5 @@
+(for mobile version of this file, see trouy.dev/mobile_resume.txt)
+
  ┌── [resume.txt] ──────────────────────────────────────────────── [utf-8] ───┐
  │                                                                            │
  │   SAM TROUY                                                                │

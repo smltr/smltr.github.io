@@ -4,9 +4,6 @@ title: Human Memory
 date: 2024-12-04
 ---
 
-## Human Memory
-### December 4, 2024
-
 I'd like to go over an idea that has been brewing in me for a long time. I think I have reached the realization I need for the idea to come to life.
 
 It started a while back with this concept that language models (LMs) had enough intelligence to work autonomously, but just needed to be set up right. As if there were some loop of prompts you could feed them to allow them to remember things outside their context window and iterate on a task without constantly being prompted.

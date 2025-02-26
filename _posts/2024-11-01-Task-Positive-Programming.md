@@ -4,9 +4,6 @@ title: Task Positive Programming
 date: 2024-11-01
 ---
 
-## Task Positive Programming: Don't Think, Just Do
-### November 1, 2024
-
 I've had a recent bout of stack paralysis, spending ludicrous amounts of time researching languages and frameworks in hopes to find the the stack.
 
 There are always one or two project ideas swirling around in my head at any given point in time, and I've really been struggling with just starting.

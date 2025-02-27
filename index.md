@@ -14,6 +14,7 @@ I'm a nerd.
 
 ### Projects
 - [Counter-Strike Server Browser](https://findservers.net)
+- [Plain Text Resume Formatter](https://github.com/samtrouy/resume)
 
 ---
 © 2024 Sam Trouy

@@ -4,6 +4,10 @@
 /* Plain text style */
 /* @import "{{ site.theme }}"; */
 
+body {
+    margin-top: 20px;
+}
+
 body,
 p {
     font-family: "Courier New", Courier, monospace;

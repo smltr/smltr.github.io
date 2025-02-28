@@ -29,10 +29,10 @@
  │                                                                            │
  │   —— Skills/Languages/Frameworks ———————————————————————————————————————   │
  │                                                                            │
- │   • Professional experience with Go, TypeScript, React, AWS, MongoDB,      │
- │     Docker, GitHub                                                         │
- │   • Personal projects with Go, HTMX, Alpine, Fly.io, Docker                │
- │   • Familiarity with Python, Rust, and Lisp, Node/Deno                     │
+ │         • Professional experience with Go, TypeScript, React, AWS,         │
+ │           MongoDB, Docker, GitHub                                          │
+ │         • Personal projects with Go, HTMX, Alpine, Fly.io, Docker          │
+ │         • Familiarity with Python, Rust, and Lisp, Node/Deno               │
  │                                                                            │
  │                                                                            │
  │   —— Experience ————————————————————————————————————————————————————————   │
@@ -40,7 +40,7 @@
  │   → Independent Developer ··············································   │
  │     Apr 2023 - Present (2 years)                                           │
  │                                                                            │
- │         Self-funded exploration into agentic AI and personal projects      │
+ │   Self-funded exploration into agentic AI and personal projects            │
  │                                                                            │
  │         • Had my daughter, Summer                                          │
  │         • Built custom blog (Elixir, Phoenix, LiveView)                    │
@@ -51,7 +51,7 @@
  │   → Founding Software Engineer, SheetRocks ·····························   │
  │     Apr 2021 - Apr 2023 (2 years)                                          │
  │                                                                            │
- │         First engineer at seed-stage spreadsheet SaaS startup              │
+ │   First engineer at seed-stage spreadsheet SaaS startup                    │
  │                                                                            │
  │         • Had my son, Sam III                                              │
  │         • Owned key feature development (sorting algorithm, Python         │
@@ -61,12 +61,12 @@
  │         • Maintained test suite and CI/CD pipeline                         │
  │         • On-call support for production incidents                         │
  │                                                                            │
- │         Stack: Go, React, TypeScript, Python, Docker, AWS, GitHub          │
+ │   Stack: Go, React, TypeScript, Python, Docker, AWS, GitHub                │
  │                                                                            │
  │   → Independent Developer ··············································   │
  │     Oct 2020 - Apr 2021 (0.5 years)                                        │
  │                                                                            │
- │         Self-taught software engineering journey                           │
+ │   Self-taught software engineering journey                                 │
  │                                                                            │
  │         • Built personal site (Go, vanilla JS)                             │
  │         • Created web scraper with custom instruction language             │
@@ -86,4 +86,4 @@
  │   → Sales Associate, Bed Bath & Beyond                                     │
  │     Mar 2011 - Mar 2012 (1 year)                                           │
  │                                                                            │
- └──────────────────────────────────────────────── [Generated: 2025-02-26] ───┘
+ └──────────────────────────────────────────────── [Generated: 2025-02-28] ───┘

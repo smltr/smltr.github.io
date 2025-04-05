@@ -5,7 +5,7 @@ Welcome to my personal landing page. I'm a full stack tech generalist and AI ent
 
 ### Quick Links
 - [View my Resume (PDF)](resume.pdf) (or, curl trouy.dev/resume.txt for plain text)
-  - Plain text options: [desktop](resume.txt) | [mobile](mobile_resume.txt)
+  - Plain text options: [desktop](resume.txt), [mobile](mobile_resume.txt)
 - [LinkedIn](https://linkedin.com/in/sam-trouy)
 - [Blog](/blog/)
 

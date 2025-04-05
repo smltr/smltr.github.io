@@ -6,8 +6,10 @@
 
 body {
     margin-top: 75px !important;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 500px;
+    padding: 0 20px;
 }
 
 body,
@@ -15,8 +17,6 @@ p {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
     line-height: 1.5;
-    max-width: 500px;
-    margin: 20px auto;
     color: #ddd;
     background-color: #222;
 }

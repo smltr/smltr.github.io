@@ -1,9 +1,9 @@
 (for mobile version of this file, see trouy.dev/mobile_resume.txt)
 
- ┌── [resume.txt] ──────────────────────────────────────────────── [utf-8] ───┐
+ ┌── [trouy.dev/resume.txt] ────────────────────────────────────── [utf-8] ───┐
  │                                                                            │
  │   SAM TROUY                                                                │
- │   Full Stack Software Engineer                                             │
+ │   Technical Problem Solver                                                 │
  │                                                                            │
  │   901-609-0511 · smltr@proton.me                                           │
  │   trouy.dev · linkedin.com/in/sam-trouy                                    │
@@ -19,20 +19,43 @@
  │                                                                            │
  │   —— Summary ———————————————————————————————————————————————————————————   │
  │                                                                            │
- │   29-year-old tech generalist with experience as a founding engineer, in   │
+ │   30-year-old generalist with experience as a founding engineer, in        │
  │   sales, and doing hands on technical work. Continuous learner with a      │
  │   determined mindset. Husband and dad of 2 kids.                           │
  │                                                                            │
- │   nerd; innovator; reader; writer; learner; gamer; thinker; doer; risk-    │
- │   taker; FIGURE-OUTER; DOT-CONNECTOR                                       │
+ │   nerd; innovator; reader; writer; learner; gamer; independent thinker;    │
+ │   doer; risk-taker; figure-outer; dot-connector                            │
+ │                                                                            │
+ │                                                                            │
+ │   —— Books that have shaped me —————————————————————————————————————————   │
+ │                                                                            │
+ │   This is the most important section of this document. This isn't an       │
+ │   exhaustive list, just the highlights from the past few years.            │
+ │                                                                            │
+ │       From..                                                               │
+ │                                                                            │
+ │       .. 'Shoe Dog' I learned   .. that reading can be exciting,           │
+ │       .. 'Verbal Judo'          .. speaking with respect,                  │
+ │       .. 'The Daily Stoic'      .. virtues, especially honesty,            │
+ │       .. 'Zero to One'          .. that I'm an inventor at heart,          │
+ │       .. 'How to Create a Mind' .. that the brain can be understood,       │
+ │       .. 'The One Thing'        .. the power of focus,                     │
+ │       .. 'Hackers and Painters' .. the power of independent thought,       │
+ │       .. 'Range'                .. the power of variety,                   │
+ │       .. 'The Art of War'       .. strategy,                               │
+ │       .. 'Meditations'          .. acceptance & peace.                     │
  │                                                                            │
  │                                                                            │
  │   —— Skills/Languages/Frameworks ———————————————————————————————————————   │
  │                                                                            │
- │         • Professional experience with Go, TypeScript, React, AWS,         │
- │           MongoDB, Docker, GitHub                                          │
- │         • Personal projects with Go, HTMX, Alpine, Fly.io, Docker          │
- │         • Familiarity with Python, Rust, and Lisp, Node/Deno               │
+ │   I'm stack agnostic, and enjoy learning new languages and tools. Here     │
+ │   are some things I've used in the past, or still use:                     │
+ │                                                                            │
+ │       • Professional experience: Go, TypeScript, React, AWS, MongoDB,      │
+ │         Docker, GitHub                                                     │
+ │       • Personal projects: Go, HTMX, Alpine, Fly.io, Docker                │
+ │       • Familiarity with Python, Rust, and Lisp, Node/Deno                 │
+ │       • LLMs for thinking assistance, learning & exploration               │
  │                                                                            │
  │                                                                            │
  │   —— Experience ————————————————————————————————————————————————————————   │
@@ -40,33 +63,36 @@
  │   → Independent Developer ··············································   │
  │     Apr 2023 - Present (2 years)                                           │
  │                                                                            │
- │   Self-funded exploration into agentic AI and personal projects            │
+ │         Self-funded exploration into agentic AI and personal projects      │
  │                                                                            │
  │         • Had my daughter, Summer                                          │
- │         • Built custom blog (Elixir, Phoenix, LiveView)                    │
+ │         • Built custom blog to learn Elixir, Phoenix & LiveView            │
  │         • Tinkered with personal Lisp dialect                              │
  │         • Created Counter-Strike server browser (findservers.net)          │
- │         • Refined personal LLM workflow for coding and creative work       │
+ │         • Refined personal LLM workflow for coding, creative work &        │
+ │           learning                                                         │
  │                                                                            │
  │   → Founding Software Engineer, SheetRocks ·····························   │
  │     Apr 2021 - Apr 2023 (2 years)                                          │
  │                                                                            │
- │   First engineer at seed-stage spreadsheet SaaS startup                    │
+ │         First hire at seed-stage SaaS startup                              │
  │                                                                            │
  │         • Had my son, Sam III                                              │
  │         • Owned key feature development (sorting algorithm, Python         │
  │           macros, formula ranges, cross-sheet references)                  │
- │         • Optimized React performance for smooth spreadsheet experience    │
- │         • Fixed critical calculation and data integrity issues             │
+ │         • Optimized React performance for smooth front end experience      │
+ │           (selective rendering, scrolling through large spreadsheets)      │
+ │         • Fixed critical calculation and data integrity issues (pointer    │
+ │           bugs, multithreading, cell reference logic)                      │
  │         • Maintained test suite and CI/CD pipeline                         │
  │         • On-call support for production incidents                         │
  │                                                                            │
- │   Stack: Go, React, TypeScript, Python, Docker, AWS, GitHub                │
+ │         Stack: Go, React, TypeScript, Python, Jest, Docker, AWS, GitHub    │
  │                                                                            │
  │   → Independent Developer ··············································   │
  │     Oct 2020 - Apr 2021 (0.5 years)                                        │
  │                                                                            │
- │   Self-taught software engineering journey                                 │
+ │         Becoming a self-taught developer                                   │
  │                                                                            │
  │         • Built personal site (Go, vanilla JS)                             │
  │         • Created web scraper with custom instruction language             │
@@ -75,15 +101,22 @@
  │   → Wire Tech & Sales Consultant, AT&T ·································   │
  │     Apr 2017 - Oct 2020 (3.5 years)                                        │
  │                                                                            │
- │         • Got married to my wife, Alaa                                     │
  │         • Installed/repaired internet, TV, and phone services              │
  │         • Transitioned to sales roles (outside and in-store)               │
- │         • Developed customer communication and problem-solving skills      │
+ │         • Learned how to communicate with empathy & perform under          │
+ │           pressure                                                         │
  │                                                                            │
  │   → Sales Associate, Best Buy                                              │
  │     Mar 2012 - Apr 2017 (5 years)                                          │
  │                                                                            │
+ │         • Got married in January of 2017                                   │
+ │         • Sold under many different departments including computing,       │
+ │           digital imaging, and mobile.                                     │
+ │                                                                            │
  │   → Sales Associate, Bed Bath & Beyond                                     │
  │     Mar 2011 - Mar 2012 (1 year)                                           │
  │                                                                            │
- └──────────────────────────────────────────────── [Generated: 2025-02-28] ───┘
+ │         • First job when I was 16. My neighbor was the store manager.      │
+ │           Started the month I got my driver's license.                     │
+ │                                                                            │
+ └──────────────────────────────────────────────── [Generated: 2025-04-05] ───┘

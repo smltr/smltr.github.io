@@ -214,7 +214,7 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
         List of lines with border design
     """
     # Extract filename for the header
-    filename = filename.split('/')[-1]
+    filename = "trouy.dev/" + filename.split('/')[-1]
 
     # Determine if this is a mobile version
     is_mobile = 'mobile' in filename.lower()

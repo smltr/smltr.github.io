@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Human Memory
 date: 2024-12-04
 ---

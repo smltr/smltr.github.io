@@ -10,7 +10,7 @@ Welcome to my personal landing page. I'm a full stack tech generalist and AI ent
 - [Blog](/blog/)
 
 ### About Me
-I'm a nerd.
+I'm a computer nerd.
 
 ### Projects
 - [Counter-Strike Server Browser](https://findservers.net)

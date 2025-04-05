@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Task Positive Programming
 date: 2024-11-01
 ---

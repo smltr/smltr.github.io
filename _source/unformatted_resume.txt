@@ -24,7 +24,6 @@ This is the most important section of this document. This isn't an exhaustive li
     From..
 
     .. 'Shoe Dog' I learned   .. that reading can be exciting,
-    .. 'Verbal Judo'          .. speaking with respect,
     .. 'The Daily Stoic'      .. virtues, especially honesty,
     .. 'Zero to One'          .. that I'm an inventor at heart,
     .. 'How to Create a Mind' .. that the brain can be understood,

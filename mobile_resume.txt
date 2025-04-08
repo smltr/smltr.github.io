@@ -41,8 +41,6 @@
  │                                                 │
  │     .. 'Shoe Dog' I learned   .. that reading   │
  │     can be exciting,                            │
- │     .. 'Verbal Judo'          .. speaking with  │
- │     respect,                                    │
  │     .. 'The Daily Stoic'      .. virtues,       │
  │     especially honesty,                         │
  │     .. 'Zero to One'          .. that I'm an    │
@@ -151,4 +149,4 @@
  │       the store manager. Started the month I    │
  │       got my driver's license.                  │
  │                                                 │
- └───────────────────── [Generated: 2025-04-05] ───┘
+ └───────────────────── [Generated: 2025-04-08] ───┘

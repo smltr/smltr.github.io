@@ -4,10 +4,6 @@ Technical Problem Solver
 901-609-0511 · smltr@proton.me
 trouy.dev · linkedin.com/in/sam-trouy
 
-trouy.dev/resume.pdf
-or
-curl trouy.dev/resume.txt
-
 
 —— Reading this resume with context //—
 

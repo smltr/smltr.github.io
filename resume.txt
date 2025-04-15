@@ -7,44 +7,34 @@
  │   trouy.dev · linkedin.com/in/sam-trouy                                    │
  │                                                                            │
  │                                                                            │
- │   —— Reading this resume with context ——————————————————————————————————   │
- │                                                                            │
- │   I like to cut through noise and get straight to the point. I've          │
- │   attempted to design this resume to be as concise and clear as            │
- │   possible, while also allowing me to take liberties in ways a             │
- │   traditional resume might not. I also really like plain text.             │
- │                                                                            │
- │                                                                            │
  │   —— Summary ———————————————————————————————————————————————————————————   │
  │                                                                            │
- │   30-year-old generalist with experience as a founding engineer, in        │
- │   sales, and doing hands on technical work. Continuous learner with a      │
- │   determined mindset. Husband and dad of 2 kids.                           │
+ │   30-year-old technical generalist with experience as a founding           │
+ │   engineer, in sales, and doing hands-on technical work. Husband and dad   │
+ │   of 2 kids.                                                               │
  │                                                                            │
- │   nerd; innovator; reader; writer; learner; gamer; independent thinker;    │
- │   doer; risk-taker; figure-outer; dot-connector                            │
+ │   reader; writer; learner; thinker; doer; risk taker; dot connector;       │
+ │   listener                                                                 │
  │                                                                            │
  │                                                                            │
- │   —— Books that have shaped me —————————————————————————————————————————   │
+ │   —— Books —————————————————————————————————————————————————————————————   │
  │                                                                            │
- │   This is the most important section of this document to me. This isn't    │
- │   an exhaustive list, just the highlights from the past few years.         │
+ │       From.. I learned..                                                   │
  │                                                                            │
- │       From.. I learned ..                                                  │
- │                                                                            │
- │       .. 'Shoe Dog'                 .. that reading can be exciting,       │
- │       .. 'The Daily Stoic'          .. virtues, especially honesty,        │
- │       .. 'Zero to One'              .. that I'm an inventor at heart,      │
- │       .. 'How to Create a Mind'     .. that the brain can be understood,   │
- │       .. 'The One Thing'            .. the power of focus,                 │
- │       .. 'Hackers and Painters'     .. the power of independent thought,   │
- │       .. 'The Body Keeps the Score' .. healing and changing,               │
- │       .. 'Range'                    .. the power of variety,               │
+ │       .. 'Shoe Dog'                 .. I like reading,                     │
+ │       .. 'The Daily Stoic'          .. virtues, honesty,                   │
+ │       .. 'Zero to One'              .. I want to invent,                   │
+ │       .. 'How to Create a Mind'     .. mysteries of the neocortex,         │
+ │       .. 'The One Thing'            .. focus,                              │
+ │       .. 'Hackers and Painters'     .. to think uniquely,                  │
+ │       .. 'The Body Keeps the Score' .. healing, changing,                  │
+ │       .. 'Range'                    .. variety,                            │
  │       .. 'The Art of War'           .. strategy,                           │
- │       .. 'Meditations'              .. acceptance & peace.                 │
+ │       .. 'Meditations'              .. acceptance,                         │
+ │       .. 'Tao Te Ching'             .. less is more.                       │
  │                                                                            │
  │                                                                            │
- │   —— Skills/Languages/Frameworks ———————————————————————————————————————   │
+ │   —— Languages/Frameworks/Tools ————————————————————————————————————————   │
  │                                                                            │
  │   I enjoy learning new languages and tools. Here are some things I've      │
  │   used in the past, or still use:                                          │
@@ -52,8 +42,17 @@
  │       • Professional experience: Go, TypeScript, React, AWS, MongoDB,      │
  │         Docker, GitHub                                                     │
  │       • Personal projects: Go, HTMX, Alpine, Fly.io, Docker                │
- │       • Familiarity with Python, Rust, and Lisp, Node/Deno                 │
+ │       • Familiarity with Python, Rust, Lisp, Node/Deno                     │
  │       • LLMs for thinking assistance, learning & exploration               │
+ │                                                                            │
+ │   I appreciate both rapid and deep learning of tools.                      │
+ │                                                                            │
+ │                                                                            │
+ │   —— My Ideal Team —————————————————————————————————————————————————————   │
+ │                                                                            │
+ │       + Small:           table makers, not 'table-leg-screwer-onners'      │
+ │       + Unique:          unusual, independent thinkers                     │
+ │       + Impact driven:   creating value, not just growth                   │
  │                                                                            │
  │                                                                            │
  │   —— Experience ————————————————————————————————————————————————————————   │
@@ -61,14 +60,23 @@
  │   → Independent Developer ··············································   │
  │     Apr 2023 - Present (2 years)                                           │
  │                                                                            │
- │         Self-funded exploration into agentic AI and personal projects      │
+ │         Self-funded exploration into agentic AI and other projects         │
  │                                                                            │
  │         • Had my daughter, Summer                                          │
+ │         • Prototyped agentic LLM systems built around a 'mind kernel'      │
+ │           (self modifying instructions)                                    │
  │         • Built custom blog to learn Elixir, Phoenix & LiveView            │
- │         • Explored developing personal Lisp dialect                        │
+ │             - I now use GitHub pages                                       │
+ │         • Delved into Lisp and its dialects                                │
  │         • Created Counter-Strike server browser (findservers.net)          │
+ │             - I wanted this to exist for my own use, and thought others    │
+ │               might find it useful as well. I'm currently reworking it     │
+ │               to be more performant.                                       │
  │         • Refined personal LLM workflow for coding, creative work &        │
  │           learning                                                         │
+ │             - Regardless of what I'm doing, I seed most conversations      │
+ │               with a set of documents giving personal context about me     │
+ │               that I update regularly                                      │
  │                                                                            │
  │   → Founding Software Engineer, SheetRocks ·····························   │
  │     Apr 2021 - Apr 2023 (2 years)                                          │
@@ -76,13 +84,17 @@
  │         First hire at seed-stage SaaS startup                              │
  │                                                                            │
  │         • Had my son, Sam III                                              │
- │         • Owned key feature development (sorting algorithm, Python         │
- │           macros, formula ranges, cross-sheet references)                  │
- │         • Optimized React performance for smooth front end experience      │
- │           (selective rendering, scrolling through large spreadsheets)      │
- │         • Fixed critical calculation and data integrity issues (pointer    │
- │           bugs, multithreading, cell reference logic)                      │
+ │         • Owned key feature development                                    │
+ │             - sorting algorithm, macros, formula range selection, cross-   │
+ │               sheet references                                             │
+ │         • Optimized React performance                                      │
+ │             - selective rendering, scrolling through sheet with millions   │
+ │               of rows                                                      │
+ │         • Fixed critical calculation and data integrity issues             │
+ │             - pointer bugs, multithreading, cell reference logic           │
  │         • Maintained test suite and CI/CD pipeline                         │
+ │             - End-to-end testing using Jest                                │
+ │             - added tests for every pull request                           │
  │         • On-call support for production incidents                         │
  │                                                                            │
  │         Stack: Go, React, TypeScript, Python, Jest, Docker, AWS, GitHub    │
@@ -94,7 +106,8 @@
  │                                                                            │
  │         • Built personal site (Go, vanilla JS)                             │
  │         • Created web scraper with custom instruction language             │
- │         • Developed Discord bot for financial data processing              │
+ │         • Developed bot to ping client when certain states were met for    │
+ │           a given financial asset                                          │
  │                                                                            │
  │   → Wire Tech & Sales Consultant, AT&T ·································   │
  │     Apr 2017 - Oct 2020 (3.5 years)                                        │
@@ -107,14 +120,13 @@
  │   → Sales Associate, Best Buy                                              │
  │     Mar 2012 - Apr 2017 (5 years)                                          │
  │                                                                            │
- │         • Got married in January of 2017                                   │
- │         • Sold under many different departments including computing,       │
- │           digital imaging, and mobile.                                     │
+ │         • Got married to my wife Alaa in January of 2017                   │
+ │         • Sold in many different departments including computing,          │
+ │           digital imaging, and mobile                                      │
  │                                                                            │
  │   → Sales Associate, Bed Bath & Beyond                                     │
  │     Mar 2011 - Mar 2012 (1 year)                                           │
  │                                                                            │
- │         • First job when I was 16. My neighbor was the store manager.      │
- │           Started the month I got my driver's license.                     │
+ │         • First job                                                        │
  │                                                                            │
  └──────────────────────────────────────────────── [Generated: 2025-04-14] ───┘

@@ -1,5 +1,3 @@
-(for mobile version of this file, see trouy.dev/mobile_resume.txt)
-
  ┌── [trouy.dev/resume.txt] ────────────────────────────────────── [utf-8] ───┐
  │                                                                            │
  │   SAM TROUY                                                                │
@@ -7,6 +5,10 @@
  │                                                                            │
  │   901-609-0511 · smltr@proton.me                                           │
  │   trouy.dev · linkedin.com/in/sam-trouy                                    │
+ │                                                                            │
+ │   trouy.dev/resume.pdf                                                     │
+ │   or                                                                       │
+ │   curl trouy.dev/resume.txt                                                │
  │                                                                            │
  │                                                                            │
  │   —— Reading this resume with context ——————————————————————————————————   │
@@ -29,26 +31,27 @@
  │                                                                            │
  │   —— Books that have shaped me —————————————————————————————————————————   │
  │                                                                            │
- │   This is the most important section of this document. This isn't an       │
- │   exhaustive list, just the highlights from the past few years.            │
+ │   This is the most important section of this document to me. This isn't    │
+ │   an exhaustive list, just the highlights from the past few years.         │
  │                                                                            │
- │       From..                                                               │
+ │       From.. I learned ..                                                  │
  │                                                                            │
- │       .. 'Shoe Dog' I learned   .. that reading can be exciting,           │
- │       .. 'The Daily Stoic'      .. virtues, especially honesty,            │
- │       .. 'Zero to One'          .. that I'm an inventor at heart,          │
- │       .. 'How to Create a Mind' .. that the brain can be understood,       │
- │       .. 'The One Thing'        .. the power of focus,                     │
- │       .. 'Hackers and Painters' .. the power of independent thought,       │
- │       .. 'Range'                .. the power of variety,                   │
- │       .. 'The Art of War'       .. strategy,                               │
- │       .. 'Meditations'          .. acceptance & peace.                     │
+ │       .. 'Shoe Dog'                 .. that reading can be exciting,       │
+ │       .. 'The Daily Stoic'          .. virtues, especially honesty,        │
+ │       .. 'Zero to One'              .. that I'm an inventor at heart,      │
+ │       .. 'How to Create a Mind'     .. that the brain can be understood,   │
+ │       .. 'The One Thing'            .. the power of focus,                 │
+ │       .. 'Hackers and Painters'     .. the power of independent thought,   │
+ │       .. 'The Body Keeps the Score' .. healing and changing,               │
+ │       .. 'Range'                    .. the power of variety,               │
+ │       .. 'The Art of War'           .. strategy,                           │
+ │       .. 'Meditations'              .. acceptance & peace.                 │
  │                                                                            │
  │                                                                            │
  │   —— Skills/Languages/Frameworks ———————————————————————————————————————   │
  │                                                                            │
- │   I'm stack agnostic, and enjoy learning new languages and tools. Here     │
- │   are some things I've used in the past, or still use:                     │
+ │   I enjoy learning new languages and tools. Here are some things I've      │
+ │   used in the past, or still use:                                          │
  │                                                                            │
  │       • Professional experience: Go, TypeScript, React, AWS, MongoDB,      │
  │         Docker, GitHub                                                     │
@@ -66,7 +69,7 @@
  │                                                                            │
  │         • Had my daughter, Summer                                          │
  │         • Built custom blog to learn Elixir, Phoenix & LiveView            │
- │         • Tinkered with personal Lisp dialect                              │
+ │         • Explored developing personal Lisp dialect                        │
  │         • Created Counter-Strike server browser (findservers.net)          │
  │         • Refined personal LLM workflow for coding, creative work &        │
  │           learning                                                         │
@@ -118,4 +121,4 @@
  │         • First job when I was 16. My neighbor was the store manager.      │
  │           Started the month I got my driver's license.                     │
  │                                                                            │
- └──────────────────────────────────────────────── [Generated: 2025-04-08] ───┘
+ └──────────────────────────────────────────────── [Generated: 2025-04-14] ───┘

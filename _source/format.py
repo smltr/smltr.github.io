@@ -199,37 +199,17 @@ def wrap_text_with_border(
         print(f"Error writing output file: {e}")
 
 
-def format_with_border(lines: List[str], width: int, padding: int, margin: int, filename: str = "resume.txt") -> List[str]:
-    """
-    Add border design to the wrapped text.
-
-    Args:
-        lines: List of wrapped text lines
-        width: Total width of the document
-        padding: Number of spaces for padding
-        margin: Number of spaces to add outside the border
-        input_file: Name of the input file to display in header
-
-    Returns:
-        List of lines with border design
-    """
-    # Extract filename for the header
+def format_with_border(lines: List[str], width: int, padding: int, margin: int, filename: str = "resume.txt") -> List[str]:    # Extract filename for the header
     filename = "trouy.dev/" + filename.split('/')[-1]
 
     # Determine if this is a mobile version
-    is_mobile = 'mobile' in filename.lower()
-
-    # Create message about alternate version
-    if is_mobile:
-        alternate_version_msg = "(for desktop version of this file, see trouy.dev/resume.txt)"
-    else:
-        alternate_version_msg = "(for mobile version of this file, see trouy.dev/mobile_resume.txt)"
+    is_mobile = False
 
     # Calculate adjusted width (total width minus margin)
     adjusted_width = width - (margin * 2)
 
     # Create header with filename and utf-8 indicator
-    header_text = f"── [{filename}] "
+    header_text = f"── [trouy.dev/resume.txt] "
     # Calculate correct fill length to ensure alignment with exact width
     remaining_width = adjusted_width - len(header_text) - 14  # 12 = "┌" + " utf-8 ───┐"
     header_fill = '─' * remaining_width
@@ -256,7 +236,7 @@ def format_with_border(lines: List[str], width: int, padding: int, margin: int, 
     margin_spaces = ' ' * margin
 
     # Start with alternate version message before the border
-    result = [alternate_version_msg, '']  # Message followed by a newline
+    result = []  # Message followed by a newline
     result.append(margin_spaces + header)
 
     # Add empty line at the beginning

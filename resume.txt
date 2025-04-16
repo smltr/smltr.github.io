@@ -17,11 +17,11 @@
  │   listener                                                                 │
  │                                                                            │
  │                                                                            │
- │   —— Books —————————————————————————————————————————————————————————————   │
+ │   —— Books that have shaped my thinking ————————————————————————————————   │
  │                                                                            │
  │       From.. I learned..                                                   │
  │                                                                            │
- │       .. 'Shoe Dog'                 .. I like reading,                     │
+ │       .. 'Shoe Dog'                 .. reading can be exciting,            │
  │       .. 'The Daily Stoic'          .. virtues, honesty,                   │
  │       .. 'Zero to One'              .. I want to invent,                   │
  │       .. 'How to Create a Mind'     .. mysteries of the neocortex,         │
@@ -129,4 +129,4 @@
  │                                                                            │
  │         • First job                                                        │
  │                                                                            │
- └──────────────────────────────────────────────── [Generated: 2025-04-14] ───┘
+ └──────────────────────────────────────────────── [Generated: 2025-04-16] ───┘

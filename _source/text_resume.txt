@@ -1,0 +1,50 @@
+SAM TROUY
+Software Developer
+
+901-609-0511 · smltr@proton.me · trouy.dev · linkedin.com/in/sam-trouy
+
+—— Summary ———————————————————————————————————————————————————————————————————————
+
+30-year-old full stack developer with experience as a founding software engineer, in sales, and doing hands-on technical work. Husband and dad of 2 kids. Professional experience with Go, TypeScript, React, AWS. Personal experience with many more languages, frameworks and tools.
+
+—— Experience ————————————————————————————————————————————————————————————————————
+
+→ Independent Developer ··························································
+  Apr 2023 – Present
+
+  Self-funded exploration into agentic AI and other projects
+
+    • Prototyped agentic LLM systems built around a 'mind kernel' (self modifying instructions)
+    • Built custom blog to learn Elixir, Phoenix & LiveView
+    • Delved into Lisp and its dialects
+    • Created Counter-Strike server browser
+    • Refined personal LLM workflow for coding, creative work & learning
+
+→ Founding Software Engineer, SheetRocks ·········································
+  Apr 2021 - Apr 2023
+
+  First hire at seed-stage SaaS startup
+  Stack: Go, React, TypeScript, Python, Jest, Docker, AWS, GitHub
+
+    • Owned key feature development: sorting algorithm, macros, formula range selection, cross-sheet references
+    • Optimized React performance: selective rendering, scrolling through sheet with millions of rows
+    • Fixed critical calculation and data integrity issues: pointer bugs, multi threading, cell reference logic
+    • Maintained test suite and CI/CD pipeline: end-to-end testing using Jest, added tests for every pull request
+    • On-call support for production incidents
+
+→ Independent Developer ··························································
+  Oct 2020 - Apr 2021
+
+    • Built personal site (Go, vanilla JS)
+    • Created web scraper with custom instruction language
+    • Developed bot to ping client under certain market conditions
+
+→ Wire Tech & Sales Consultant, AT&T ·············································
+  Apr 2017 - Oct 2020
+
+      • Installed/repaired internet, TV, and phone services
+      • Transitioned to sales roles (outside sales and retail)
+      • Learned how to communicate with empathy & perform under pressure
+
+→ Various Retail Sales Positions, 2011-2017
+[updated May 5, 2025]

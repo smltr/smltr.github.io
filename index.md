@@ -7,6 +7,7 @@ Welcome to my personal landing page. I'm a full stack tech generalist and AI ent
 - [View my Resume (PDF)](Sam_Trouy_Resume.pdf)
 - [LinkedIn](https://linkedin.com/in/sam-trouy)
 - [Blog](/blog/)
+- [FindServers.net](https://findservers.net): Counter-Strike 2 community server browser
 
 ---
 © 2025 Sam Trouy

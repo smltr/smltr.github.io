@@ -8,6 +8,7 @@ Welcome to my personal landing page. I'm a full stack tech generalist and AI ent
 - [LinkedIn](https://linkedin.com/in/sam-trouy)
 - [Blog](/blog/)
 - [FindServers.net](https://findservers.net): Counter-Strike 2 community server browser
+- [Type2Learn](https://github.com/smltr/type2learn): Learn TypeScript syntax by copying code examples
 
 ---
 © 2025 Sam Trouy

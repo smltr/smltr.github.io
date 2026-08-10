@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Human Memory
 date: 2024-12-04
+description: A theory of memory as tagging and retrieval — and what it might mean for autonomous AI.
+legacyPath: /2024/12/04/Human-Memory.html
+legacySlug: Human-Memory
+slug: human-memory
 ---
 
 I'd like to go over an idea that has been brewing in me for a long time. I think I have reached the realization I need for the idea to come to life.

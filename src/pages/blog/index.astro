@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("en", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+---
+
+<BaseLayout
+  title="Writing — Sam Trouy"
+  description="Notes on building software, minds, memory, focus, and whatever Sam is learning next."
+>
+  <section class="page-intro writing-intro">
+    <p class="eyebrow">Field notes / {String(posts.length).padStart(2, "0")} entries</p>
+    <h1>Working things out <em>in public.</em></h1>
+    <p>Notes on software, attention, minds, and the ideas that won't leave me alone.</p>
+  </section>
+
+  <section class="archive" aria-label="All posts">
+    {
+      posts.map((post, index) => (
+        <a class="archive-row" href={`/writing/${post.data.slug}/`}>
+          <span class="archive-index">{String(index + 1).padStart(2, "0")}</span>
+          <div class="archive-copy">
+            <h2>{post.data.title}</h2>
+            <p>{post.data.description}</p>
+          </div>
+          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>

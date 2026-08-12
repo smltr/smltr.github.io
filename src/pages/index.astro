@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import EmailLink from "../components/EmailLink.astro";
 
 const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
@@ -64,10 +65,10 @@ const formatDate = (date: Date) =>
   <section>
     <h2>Elsewhere</h2>
     <ul class="plain-list">
-      <li><a href="/Sam_Trouy_Resume.pdf">Résumé</a></li>
+      <li><a href="/Sam_Trouy_Resume.pdf">Resume</a></li>
       <li><a href="https://github.com/smltr">GitHub</a></li>
       <li><a href="https://linkedin.com/in/sam-trouy">LinkedIn</a></li>
-      <li><a href="mailto:smltr@proton.me">Email</a></li>
+      <li><EmailLink /></li>
     </ul>
   </section>
 </BaseLayout>

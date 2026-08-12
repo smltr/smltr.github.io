@@ -1,0 +1,15 @@
+---
+interface Props {
+  label?: string;
+  subject?: string;
+}
+
+const { label = "Email", subject } = Astro.props;
+---
+
+<a
+  href="#contact"
+  data-email-link
+  data-email-subject={subject}
+  aria-label="Email Sam Trouy"
+>{label}</a>

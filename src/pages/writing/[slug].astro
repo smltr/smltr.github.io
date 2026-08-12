@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmailLink from "../../components/EmailLink.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -44,7 +45,10 @@ const formattedDate = new Intl.DateTimeFormat("en", {
     </div>
     <footer class="article-footer">
       <p>
-        Thanks for reading. <a href="mailto:smltr@proton.me?subject=Re%3A%20Sam%27s%20writing">Continue the conversation ↗</a>
+        Thanks for reading. <EmailLink
+          label="Continue the conversation ↗"
+          subject="Re: Sam's writing"
+        />
       </p>
     </footer>
   </article>

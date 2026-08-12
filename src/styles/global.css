@@ -23,7 +23,7 @@ body {
   background: var(--background);
   font-family: var(--font);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 .site {
   width: min(calc(100% - 2rem), var(--width));
   margin: 0 auto;
-  padding: 3rem 0 2rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .site-header,
@@ -93,11 +93,11 @@ a:hover {
 }
 
 main {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 section + section {
-  margin-top: 3.5rem;
+  margin-top: 2.75rem;
 }
 
 h1,
@@ -126,7 +126,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   font-size: 14px;
   font-weight: 600;
 }
@@ -141,16 +141,12 @@ h3 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .role {
   margin-bottom: 1.5rem;
   color: var(--muted);
-}
-
-.intro p:not(.role) {
-  max-width: 58ch;
 }
 
 ul,
@@ -169,7 +165,7 @@ ol {
 .link-list li + li,
 .post-list li + li,
 .plain-list li + li {
-  margin-top: 0.75rem;
+  margin-top: 0.55rem;
 }
 
 .link-list span {

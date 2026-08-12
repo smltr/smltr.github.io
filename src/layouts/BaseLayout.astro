@@ -3,15 +3,15 @@ import "../styles/global.css";
 import EmailLink from "../components/EmailLink.astro";
 
 interface Props {
-  title?: string;
-  description?: string;
-  type?: "website" | "article";
+    title?: string;
+    description?: string;
+    type?: "website" | "article";
 }
 
 const {
-  title = "Sam Trouy — Independent Software Developer",
-  description = "Sam Trouy is an independent developer who builds useful software for messy, human problems.",
-  type = "website",
+    title = "Sam Trouy — Independent Software Developer",
+    description = "Sam Trouy is an independent developer who builds useful software for humans.",
+    type = "website",
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
@@ -19,61 +19,63 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content={description} />
-    <meta name="theme-color" content="#1c1d1f" />
-    <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content={type} />
-    <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <title>{title}</title>
-  </head>
-  <body>
-    <a class="skip-link" href="#content">Skip to content</a>
-    <div class="site">
-      <header class="site-header">
-        <a class="site-name" href="/">sam.trouy</a>
-        <nav aria-label="Primary navigation">
-          <a href="/">home</a>
-          <a href="/blog/">writing</a>
-          <a href="/Sam_Trouy_Resume.pdf">Resume</a>
-        </nav>
-      </header>
-      <main id="content">
-        <slot />
-      </main>
-      <footer class="site-footer">
-        <span>© {new Date().getFullYear()} Sam Trouy</span>
-        <EmailLink label="email" />
-      </footer>
-    </div>
-    <script>
-      const emailAddress = window.atob("dHJvdXlzMTZAZ21haWwuY29t");
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content={description} />
+        <meta name="theme-color" content="#1c1d1f" />
+        <link rel="canonical" href={canonical} />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content={type} />
+        <meta property="og:url" content={canonical} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <a class="skip-link" href="#content">Skip to content</a>
+        <div class="site">
+            <header class="site-header">
+                <a class="site-name" href="/">sam trouy</a>
+                <nav aria-label="Primary navigation">
+                    <a href="/">home</a>
+                    <a href="/blog/">writing</a>
+                    <a href="/Sam_Trouy_Resume.pdf">Resume</a>
+                </nav>
+            </header>
+            <main id="content">
+                <slot />
+            </main>
+            <footer class="site-footer">
+                <span>© {new Date().getFullYear()} Sam Trouy</span>
+                <EmailLink label="email" />
+            </footer>
+        </div>
+        <script>
+            const emailAddress = window.atob("c2FtQHRyb3V5LmRldg==");
 
-      document.querySelectorAll("[data-email-link]").forEach((link) => {
-        link.addEventListener("click", (event) => {
-          event.preventDefault();
+            document.querySelectorAll("[data-email-link]").forEach((link) => {
+                link.addEventListener("click", (event) => {
+                    event.preventDefault();
 
-          if (!(link instanceof HTMLElement)) return;
+                    if (!(link instanceof HTMLElement)) return;
 
-          const subject = link.dataset.emailSubject;
-          const query = subject ? `?subject=${encodeURIComponent(subject)}` : "";
-          window.location.href = `mailto:${emailAddress}${query}`;
-        });
-      });
-    </script>
-  </body>
+                    const subject = link.dataset.emailSubject;
+                    const query = subject
+                        ? `?subject=${encodeURIComponent(subject)}`
+                        : "";
+                    window.location.href = `mailto:${emailAddress}${query}`;
+                });
+            });
+        </script>
+    </body>
 </html>

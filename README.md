@@ -1,4 +1,4 @@
-# Sam Trouy — personal site
+# My personal site
 
 An Astro-powered portfolio and writing site, deployed to GitHub Pages.
 
